@@ -2,11 +2,18 @@ body{
       justify-content: center;
       align-items: center;
       align-items: center;
-      background: linear-gradient(60deg,skyblue,pink,aqua);
-      background-repeat: no-repeat;
-      background-size: cover;
+
+
+
+
       font-family: 'Tahoma', Geneva, Verdana, sans-serif;
 }
+.back1{
+    background: linear-gradient(60deg, skyblue,pink,aqua);
+    width: 100vw;
+    height:100vh;
+}
+
 .shadow
 {
       position: relative;
