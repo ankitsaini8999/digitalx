@@ -3,14 +3,14 @@ body{
       padding: 0;
       justify-content: center;
       align-items: center;
-      font-family: sans-serif;
+      font-family: 'Tahoma', Geneva, Verdana, sans-serif;
       background: #000;
 }
 .shadow
 {
       position: relative;
       margin: 50px auto 0;
-      width: 800px;
+      width: 60%;;
       height: 80px;
       display: flex;
       justify-content: center;
@@ -58,14 +58,84 @@ body{
       {
         background-position: 0 0;
        }
-     
+}
+.nav{
+  width: 100%;
+  height: 30px;
+  background: rgba(25, 25, 25, .6);
+}
+.nav .sticky{
+  width: 100%;
+  position: fixed;
+  background: grey;
+  animation: scr 1s ;
+  animation-fill-mode: both;
+}
+.nav .sticky ul{
+  list-style: none;
+  display: flex;
+}
+ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin: 5px;
+}
+a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(11,11,11, .9);
+  transition: all .4s ;
+}
+a:hover{
+  color: rgba(12, 198, 211, .9);
+  text-shadow: 10px 10px 20px black;
+  text-decoration: none;
+}
+
+.nav-icon{
+  position: absolute;
+  top:2px;
+  right: 5px;
+  width: 40px;
+  padding: 5px;
+  z-index: 1;
+  cursor: pointer;
+  
+}
+.nav-icon span{
+  background: #333;
+  width: 30px;
+  height: 1px;
+  display: block;
+  background: aqua;
+  transition: all 400ms linear;
+}
+.nav-icon span:nth-child(1),
+.nav-icon span:nth-child(3){
+  width: 26px;
+  margin: 0px auto;
+}
+.nav-icon span:nth-child(2){
+  margin: 5px 0;
+  width: 32px;
+  
+}
+
+.nav-icon:hover span:nth-child(1),
+.nav-icon:hover span:nth-child(3) {
+  width: 32px;
+}
+
+.wrapper{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(15deg,purple,aqua,pink);
 }
 
 
-.hot{
-    position: absolute;
-     top: 500px;
-      left:300px;
-    font-size:25px;
-    color:red;
-}
