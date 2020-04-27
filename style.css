@@ -3,6 +3,8 @@ body{
       align-items: center;
       align-items: center;
       background: linear-gradient(60deg,skyblue,pink,aqua);
+      background-repeat: no-repeat;
+      background-size: cover;
       font-family: 'Tahoma', Geneva, Verdana, sans-serif;
 }
 .shadow
