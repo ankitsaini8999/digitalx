@@ -60,3 +60,12 @@ body{
        }
      
 }
+
+
+.hot{
+    position: absolute;
+     top: 500px;
+      left:300px;
+    font-size:25px;
+    color:red;
+}
