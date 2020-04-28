@@ -1,142 +1,31 @@
-body{
-      justify-content: center;
-      align-items: center;
-      align-items: center;
-
-
-
-
-      font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
 }
-.back1{
-    background: linear-gradient(60deg, skyblue,pink,aqua);
-    width: 100vw;
-    height:100vh;
+.carousel-item img{
+  width: 100vw;
+  height: 100vh;
 }
-
-.shadow
-{
-      position: relative;
-      margin: 50px auto 0;
-      width: 55%;;
-      height: 35px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 30px 30px 30px 30px;
+.carousel-caption{
+  bottom: 20%;
 }
-.shadow:before,
-.shadow:after
-{
-      content: '';
-      position: absolute;
-      top: -4px;
-      left: -4px;
-      background: linear-gradient(35deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
-      background-size: 400%;
-      border-radius: 30px 30px 30px 30px;
-      width: calc(100% + 8px);
-      height: calc(100% + 8px);
-      z-index: -1;
-      animation: ani 20s linear infinite;
+.carousel-caption h5{
+  color: black;
+  font-size: 20px;
 }
-.shadow .msg
-{
-      padding: 0;
-      box-sizing: border-box;
-      color: aqua;
-      font-size: 30px;
-      text-transform:uppercase;
+.carousel-caption p{
+  color: black;
 }
-.shadow:after
-{
-      filter: blur(15px);
+.navbar-light .navbar-brand{
+   color: aqua;
+   font-weight: 700;
+   text-shadow: 3px 2px 8px black;
 }
-@keyframes ani
-{
-      0%
-      {
-        background-position: 0 0;
-       }
-      50%
-      {
-        background-position: 300% 0;
-       }
-      100%
-      {
-        background-position: 0 0;
-       }
+.nav-item .nav-link{
+  color: black !important;
+  font-weight: 600;
 }
-.nav{
-  width: 100%;
-  height: 30px;
-  background: rgba(125, 185, 105, .8);
+.nav-item .nav-link:hover{
+  color: aqua !important;
+  text-shadow: 3px 3px 8px black;
 }
-.nav .sticky{
-  width: 100%;
-  position: fixed;
-  background: red;
-  animation: scr 1s ;
-  animation-fill-mode: both;
-}
-.nav .sticky ul{
-  list-style: none;
-  display: flex;
-}
-ul{
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-li{
-  margin: 3px;
-}
-a{
-  text-transform: uppercase;
-  text-decoration: none;
-  color: rgba(11,11,11, .9);
-  transition: all .4s ;
-  font-size: 12px;
-}
-a:hover{
-  color: rgba(12, 198, 211, .9);
-  text-shadow: 10px 10px 20px black;
-  text-decoration: none;
-}
-
-.nav-icon{
-  position: absolute;
-  top:2px;
-  right: 5px;
-  width: 40px;
-  padding: 5px;
-  z-index: 1;
-  cursor: pointer;
-  
-}
-.nav-icon span{
-  background: #333;
-  width: 30px;
-  height: 1px;
-  display: block;
-  background: aqua;
-  transition: all 400ms linear;
-}
-.nav-icon span:nth-child(1),
-.nav-icon span:nth-child(3){
-  width: 26px;
-  margin: 0px auto;
-}
-.nav-icon span:nth-child(2){
-  margin: 5px 0;
-  width: 32px;
-  
-}
-
-.nav-icon:hover span:nth-child(1),
-.nav-icon:hover span:nth-child(3) {
-  width: 32px;
-}
-
-
