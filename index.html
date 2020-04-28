@@ -10,42 +10,99 @@
   <!-- HTML -->
 
   <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="container back1">
-    <section class="header text-center">
-      <nav class="nav">
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="#" class="link1">home</a></li>
-        <li class="list-inline-item"><a href="#">about</a></li>
-        <li class="list-inline-item"><a href="#">blog</a></li>
-        <li class="list-inline-item"><a href="#">pricing</a></li>
-        <li class="list-inline-item"><a href="#">location</a></li>
-        </ul>
-        <a href="javascript:void(0);" class="nav-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </nav>
-    </section>
       
-          <div class="shadow">
-            <div class="msg">
-                  <p>Welcome</p>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container">
+          <!-- Brand -->
+           <a class="navbar-brand" href="#">primeX</a>
+             <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+           <span class="navbar-toggler-icon"></span>
+             </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+              </li>
+           <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                      </li>
+           <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                      </li>
+           <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                      </li>
+           <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                    </ul>
+                  </div>
+        </div>
+      </nav>
+      
+    <!-- corousel -->
+      
+      <div id="myNav" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#myNav" data-slide-to="0" class="active"></li>
+          <li data-target="#myNav" data-slide-to="1"></li>
+          <li data-target="#myNav" data-slide-to="2"></li>
+        </ul>
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <img src="5.jpg">
+            <div class="carousel-caption">
+            <h5>WELCOME TO MY WEBSITE</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus mollitia perferendis, eum soluta maxime necessitatibus quae! Repellat esse aspernatur obcaecati, dolore animi laudantium quae consequatur facilis maxime incidunt labore debitis.</p>
+            <p><a href="#">More Info</a></p>
             </div>
           </div>
-    
-    
-    </div>
-     
+          <div class="carousel-item">
+            <img src="6.jpg">
+            <div class="carousel-caption">
+            <h5>DYNAMIC  WEB DESIGN</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus mollitia perferendis, eum soluta maxime necessitatibus quae! Repellat esse aspernatur obcaecati, dolore animi laudantium quae consequatur facilis maxime incidunt labore debitis.</p>
+            <p><a href="#">More Info</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="8.jpg">
+            <div class="carousel-caption">
+            <h5>REALISTIC WEB CONTENT</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus mollitia perferendis, eum soluta maxime necessitatibus quae! Repellat esse aspernatur obcaecati, dolore animi laudantium quae consequatur facilis maxime incidunt labore debitis.</p>
+            <p><a href="#">More Info</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myNav" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myNav" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
   <script src="main.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
