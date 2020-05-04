@@ -305,17 +305,73 @@
   width: 100vw;
   height: 100vh;
   margin-top: 0px;
+  box-sizing:border-box;
 } 
-.carousel-item img{
-  width: 100vw;
-  height: 620px;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background: linear-gradient(90deg,#9796f0,#fbc7d4);
 }
-.carousel-item h1{
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: chartreuse;
+  font-size: 25px;
+  padding: 8px 12px;
   position: absolute;
-  top: 80%;
-  left: 20%;
-  color: #0ce4f7;
-} 
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.cimg {
+  height: 250px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .8;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .8;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
 .container6{
   width: 100vw;
   height: 100vh;
