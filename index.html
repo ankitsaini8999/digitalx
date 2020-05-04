@@ -167,29 +167,25 @@
  </section>
  
  <section class="container5">
-   <div id="myNav" class="carousel slide" data-ride="carousel">
-     <!-- Indicators -->
-     <ul class="carousel-indicators">
-       <li data-target="#myNav" data-slide-to="0" class="active"></li>
-       <li data-target="#myNav" data-slide-to="1"></li>
-       <li data-target="#myNav" data-slide-to="2"></li>
-     </ul>
-     <!-- The slideshow -->
-     <div class="carousel-inner">
-       <div class="carousel-item active">
-         <img src="2.jpg">
-         <h1>Latest tech</h1>
+        <!-- Slideshow container -->
+     <div class="slideshow-container">
+       <!-- Full-width images with number and caption text -->
+       <div class="mySlides fade">
+         <div class="numbertext">1 / 3</div>
+         <img src="1.jpg" style="width:100%" class="cimg">
+         <div class="text">Latest info</div>
        </div>
-       <div class="carousel-item">
-         <img src="12.jpg">
-         <h1>Newly launched</h1>
-         </div>
-       <div class="carousel-item">
-         <img src="14.jpg">
-         <h1>Still working</h1>
+       <div class="mySlides fade">
+         <div class="numbertext">2 / 3</div>
+         <img src="7.jpg" style="width:100%" class="cimg">
+         <div class="text">New tech</div>
+       </div>
+       <div class="mySlides fade">
+         <div class="numbertext">3 / 3</div>
+         <img src="8.jpg" style="width:100%" class="cimg">
+         <div class="text">The FUTURE</div>
        </div>
      </div>
-   </div>
  </section>
  
  <section class="container6" id="contact">
@@ -224,6 +220,26 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   
+    
+    <script>
+var slideIndex = 0;
+showSlides(slideIndex);
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+function showSlides() {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+for (i = 0; i < slides.length; i++) { slides[i].style.display="none" ; } slideIndex++; if (slideIndex> slides.length) { slideIndex = 1 }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+</script>
 
  <!-- <script>
     setTimeout(function() {
