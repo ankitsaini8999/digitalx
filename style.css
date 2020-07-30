@@ -5,36 +5,39 @@
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar{
-        width: 0px;
+        display: none;
 }
 .container1{
   width:100vw;
   height: 100vh;
-  background: linear-gradient(122.1746596259577deg, rgba(120, 15, 51,1) 43.19864908854167%,rgba(11, 114, 143,1) 76.068115234375%);
+  background: url(tunbg.jpg);
   background-size: cover;
   position: relative;
-  overflow-x: hidden;
+/*   overflow-x: hidden; */
+}
+.main-msg{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height: 70vh;
 }
 .wel-come{
   position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%,-45%);
   font-size: 55px;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   font-weight: 600;
   color: #fff;
-  animation: Anim 1.5s 1 0s ease-in;
+  animation: Anim 1.5s ease-in;
 }
 .dig{
   position: absolute;
-  top: 64%;
-  left: 50%;
-  transform: translate(-50%,-64%);
   color: #fff;
-  font-size: 55px;
-  animation: Anim 1.5s 1 0s ease-in;
+  font-size: 35px;
+  animation: Anim 1.5s ease-in;
+  padding-top: 25px;
 }
 .dig-x{
   font-size: 70px;
