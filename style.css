@@ -85,49 +85,21 @@ html,body{
   text-align: center;
   color: #fff;
 }
-.box-collection{
+.holder{
+  width: 80vw;
+  height: 90vh;
   position: absolute;
-  height: 100vh;
-  width: 100vw;
-}
-.box-1{
-  position: absolute;
-  top: 14%;
-  left: 0%;
-  transform: translate(-0%,-14%);
-  height: 30%;
-  width: 100vw;
-}
-.box-2{
-  position: absolute;
-  top: 56%;
-  transform: translate(0%,-56%);
-  width: 100vw;
-  height: 30%;
-}
-.box-3{
-  position: absolute;
-  top: 100%;
-  transform: translate(0%,-100%);
-  width: 100vw;
-  height: 30%;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-95%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 180px 180px ;
+  grid-gap: 30px;
+  text-align: center;
 }
 .box{
-  position: absolute;
-  width: 220px;
-  text-align: center;
-  color: #2AF68A;
-  font-size: 14px;
-}
-.box1{
-  position: absolute;
-  left: 2%;
-  transform: translate(-2%,0);
-}
-.box2{
-  position: absolute;
-  left: 91%;
-  transform: translate(-91%,0);
+  color: #00FF6C;
 }
 .container3{
   width: 100vw;
@@ -360,6 +332,20 @@ html,body{
   background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)) ,url(drone.jpg) center  no-repeat;
   background-size: cover;
 }
+.holder{
+  width: 100vw;
+  height: 90vh;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-95%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 190px 190px ;
+  grid-gap: 30px;
+  text-align: center;
+  font-size: 18px;
+}
 .container3{
   background: url(13.jpg) center  no-repeat;
   background-size: cover;
@@ -379,7 +365,6 @@ html,body{
 }
 .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
   width: 170px;
-/* margin-left: 10px; */
 }
 .abtus{
   color: #fff;
@@ -387,23 +372,9 @@ html,body{
 .gall{
   color: #fff;
 }
-  .nav-link{
+.nav-link{
     text-align: center;
     font-size: 30px;
-  }
-  .box{
-  position: absolute;
-  width: 175px;
-  font-size: 15px !important;
-  }
-  .box1{
-  position: absolute;
-  left: 5% !important;
-  transform: translate(-5%,0) !important;
- }
-  .box2{
-  position: absolute;
-  left: 93% !important;
-  transform: translate(-93%,0) !important;
- }
+}
+  
 }
