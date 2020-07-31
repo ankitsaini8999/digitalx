@@ -374,12 +374,12 @@ html,body{
   color: #fff;
 }
 .gal-box1,.gal-box2,.gal-box3,.gal-box4{
-  justify-content: center;
+  justify-content: center !important;
   width: 100vw;
 }
 .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
   width: 170px;
-  margin-left: 10px;
+/* margin-left: 10px; */
 }
 .abtus{
   color: #fff;
