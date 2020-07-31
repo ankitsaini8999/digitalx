@@ -393,7 +393,7 @@ html,body{
   }
   .box{
   position: absolute;
-  width: 180px;
+  width: 175px;
   font-size: 15px !important;
   }
   .box1{
@@ -403,7 +403,7 @@ html,body{
  }
   .box2{
   position: absolute;
-  left: 90% !important;
-  transform: translate(-90%,0) !important;
+  left: 93% !important;
+  transform: translate(-93%,0) !important;
  }
 }
