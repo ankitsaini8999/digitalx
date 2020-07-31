@@ -228,13 +228,9 @@ html,body{
   color: #fff;
 }
 .img-fluid{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background-size: cover;
-}
-.carousel-item{
-  width:350px;
-  height:70vh;
 }
 #mycarousel{
   position: absolute;
