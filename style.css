@@ -289,7 +289,7 @@ html,body{
   text-align: center;
 }
 
-@media(max-width: 550px){
+@media(max-width: 450px){
   .container1{
   background: url(arm.jpg) center no-repeat;
   background-size: cover;
@@ -298,24 +298,28 @@ html,body{
     font-size: 65px;
     width: 100vw;
     top: 40%;
+    left:0%;
     transform: translate(0%,-40%) !important;
     text-align: center;
 }
 .dig{
   width: 100vw;
   top: 60%;
+  left:0%;
   transform: translate(0%,-60%) !important;
   text-align: center;
 }
 .container2{
   background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)) ,url(drone.jpg) center  no-repeat;
   background-size: cover;
-  height: 160vh;
+  height: 100%;
+  width:100vw;
 }
 .holder{
   top: 12%;
   left: 50%;
   transform: translate(-50%,-12%);
+  height:190vh;
 }
 .container3{
   background: url(11.jpg) center  no-repeat;
