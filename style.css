@@ -288,7 +288,7 @@ html,body{
   text-align: center;
 }
 
-@media(max-width: 450px){
+@media(max-width: 430px){
   .container1{
   background: url(arm.jpg) center no-repeat;
   background-size: cover;
@@ -311,27 +311,26 @@ html,body{
 .container2{
   background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)) ,url(drone.jpg) center  no-repeat;
   background-size: cover;
-  height: 190vh;
+  height: 200%;
   width:100vw;
 }
 .holder{
-  top: 12%;
+  top: 20%;
   left: 50%;
-  transform: translate(-50%,-12%);
-  height:100%;
+  transform: translate(-50%,-20%);
 }
 .container3{
   background: url(11.jpg) center  no-repeat;
   background-size: cover;
-  height: 250vh;
+  height: 250%;
 }
 .gall{
   color: #000;
 }
 .gall-box{
   width:60vw;
-  height: 95%;
-  margin-top: 40px;
+  height: 100%;
+  margin-top: 70px;
 }
 div .img{
   margin-top: 20px;
@@ -349,7 +348,7 @@ div .img{
   background-size: cover;
 }
 .container6{
-  background: linear-gradient(45deg,rgba(0,0,0,.4),rgba(0,0,0,.3)) , url(12.jpg) center  no-repeat;
+  background: linear-gradient(45deg,rgba(0,0,0,.6),rgba(0,0,0,.5)) , url(12.jpg) center  no-repeat;
   background-size: cover;
   color: #fff;
 }
