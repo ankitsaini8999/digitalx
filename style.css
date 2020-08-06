@@ -27,8 +27,6 @@ html,body{
   left: 50%;
   transform: translate(-50%,-45%);
   font-size: 55px;
-  width: 100vw;
-  text-align: center;
   font-weight: 600;
   color: #fff;
 }
@@ -297,21 +295,14 @@ html,body{
   background-size: cover;
 }
   .wel-come{
-    position: absolute;
     font-size: 65px;
-    width: 100vw !important;
-    display: block;
-    margin: 0;
-    padding:0; 
+    width: 100vw;
     top: 40%;
     transform: translate(0%,-40%) !important;
+    text-align: center;
 }
 .dig{
-  position: absolute;
-  width: 100vw !important;
-  display: block;
-  margin: 0;
-  padding:0;
+  width: 100vw;
   top: 60%;
   transform: translate(0%,-60%) !important;
   text-align: center;
