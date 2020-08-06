@@ -72,13 +72,12 @@ html,body{
 }
 .container2{
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(bridge.jpg) center no-repeat;
   background-size: cover;
   position: relative;
 }
 .abtus{
-  position: absolute;
   font-size: 50px;
   font-weight: 700;
   width: 100vw;
@@ -86,20 +85,17 @@ html,body{
   color: #fff;
 }
 .holder{
-  width: 80vw;
-  height: 90vh;
+  width: 90vw;
+  height: 60vh;
   position: absolute;
-  top: 95%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%,-95%);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 180px 180px ;
-  grid-gap: 30px;
-  text-align: center;
+  transform: translate(-50%,-50%);
 }
 .box{
   color: #00FF6C;
+  font-size: 20px;
+  text-align: center;
 }
 .container3{
   width: 100vw;
@@ -108,60 +104,32 @@ html,body{
   background-size: cover;
   position: relative;
 }
-.gall {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%,0%);
+.gall{
+  width: 100vw;
+  text-align: center;
   font-size: 50px;
-  font-weight: 700;
   color: #fff;
 }
-.gal-box-coll{
-  width: 100vw;
-  height: 100vh;
+.gall-box{
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80vw;
+  height: 75vh;
+  text-align: center;
 }
-.gal-box1{
-  width: 100vw;
-  height: 140px;
-  display: flex;
-  justify-content: space-around;
-  position: absolute;
-  top: 12%;
-  transform: translate(0%,-12%);
+.row2{
+  padding-left: 70px;
+  margin-top: 20px;
 }
-.gal-box2{
-  width: 100vw;
-  height: 140px;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 40%;
-  transform: translate(0%,-40%);
+.row3{
+  margin-top: 20px;
 }
-.gal-box3{
-  width: 100vw;
-  height: 140px;
-  display: flex;
-  justify-content: space-around;
-  position: absolute;
-  top: 68%;
-  transform: translate(0%,-68%);
-}
-.gal-box4{
-  width: 100vw;
-  height: 140px;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 96%;
-  transform: translate(0%,-96%);
-}
-.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
-  width: 150px;
-  height: 140px;
-  margin-left: 20px;
-  background: url(fbulb.jpg) center no-repeat;
+.img{
+  width: 180px;
+  height: 150px;
+  background: url(images/34.jpg);
   background-size: cover;
   box-shadow: 5px 5px 15px black;
 }
@@ -328,27 +296,59 @@ html,body{
   background: url(arm.jpg) center no-repeat;
   background-size: cover;
 }
+  .wel-come{
+    position: absolute;
+    font-size: 65px;
+    width: 100vw !important;
+    display: block;
+    margin: 0;
+    padding:0; 
+    top: 40%;
+    transform: translate(0%,-40%) !important;
+}
+.dig{
+  position: absolute;
+  width: 100vw !important;
+  display: block;
+  margin: 0;
+  padding:0;
+  top: 60%;
+  transform: translate(0%,-60%) !important;
+  text-align: center;
+}
 .container2{
   background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)) ,url(drone.jpg) center  no-repeat;
   background-size: cover;
+  height: 160vh;
 }
 .holder{
-  width: 100vw;
-  height: 90vh;
-  position: absolute;
-  top: 95%;
+  top: 12%;
   left: 50%;
-  transform: translate(-50%,-95%);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 190px 190px ;
-  grid-gap: 30px;
-  text-align: center;
-  font-size: 18px;
+  transform: translate(-50%,-12%);
 }
 .container3{
-  background: url(13.jpg) center  no-repeat;
+  background: url(images/night.jpg) center  no-repeat;
   background-size: cover;
+  height: 200vh;
+}
+.gall{
+  color: #000;
+}
+.gall-box{
+  width:60vw;
+  height: 95%;
+  margin-top: 40px;
+}
+div .img{
+  margin-top: 20px;
+  width: 100%;
+}
+.row2{
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.row3{
+  margin-top: 0px;
 }
 .container4{
   background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)) , url(rbo.jpg) center  no-repeat;
@@ -358,13 +358,6 @@ html,body{
   background: linear-gradient(45deg,rgba(0,0,0,.4),rgba(0,0,0,.3)) , url(12.jpg) center  no-repeat;
   background-size: cover;
   color: #fff;
-}
-.gal-box1,.gal-box2,.gal-box3,.gal-box4{
-  justify-content: center !important;
-  width: 100vw;
-}
-.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
-  width: 170px;
 }
 .abtus{
   color: #fff;
