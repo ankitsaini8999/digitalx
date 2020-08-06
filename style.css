@@ -129,7 +129,7 @@ html,body{
 .img{
   width: 180px;
   height: 150px;
-  background: url(images/34.jpg);
+  background: url(11.jpg);
   background-size: cover;
   box-shadow: 5px 5px 15px black;
 }
@@ -327,7 +327,7 @@ html,body{
   transform: translate(-50%,-12%);
 }
 .container3{
-  background: url(images/night.jpg) center  no-repeat;
+  background: url(11.jpg) center  no-repeat;
   background-size: cover;
   height: 200vh;
 }
