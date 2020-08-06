@@ -311,13 +311,16 @@ html,body{
 .container2{
   background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)) ,url(drone.jpg) center  no-repeat;
   background-size: cover;
-  height: 200%;
-  width:100vw;
+ height: 125%;
 }
 .holder{
-  top: 20%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%,-20%);
+  transform: translate(-50%,-50%);
+  height: 85%;
+}
+.holder div{
+  font-size: 15px;
 }
 .container3{
   background: url(11.jpg) center  no-repeat;
